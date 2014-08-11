@@ -3,7 +3,7 @@
 11 August 2014
 
 * Marius Mailat*, +<marius.mailat@gmail.com>+
-http://appsrise.com[Appsrise SRL, Appseleration GmBH]
+http://appsrise.com[Appsrise]
 
 * Homework Day 1 *
 - check the Android Init Language (init.rc) documentation in ~/aosp/system/core/init/readme.txt
