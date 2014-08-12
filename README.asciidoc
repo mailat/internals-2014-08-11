@@ -9,3 +9,7 @@ http://appsrise.com[Appsrise]
 - check the Android Init Language (init.rc) documentation in ~/aosp/system/core/init/readme.txt
 - modify the name of the Browser app from Browser to "{YourName} Browser" for the russian locales
 - extra points: clear the history table at the each start ( onCreate() of the browser app) 
+
+* Homework Day 2 *
+- finish the optional chapter at page 219: Adding a Custom Kernel to our Device (do a backup first)
+- create the new image for marakana-alpha and run it on emulator using $ANDROID_HOST_OUT/bin/emulator -kernel out/target/product/alpha/kernel & 
