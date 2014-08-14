@@ -5,15 +5,21 @@
 *Marius Mailat*, +<marius.mailat@gmail.com>+
 http://appsrise.com[Appsrise]
 
-*Homework Day 1*
-* check the Android Init Language (init.rc) documentation in ~/aosp/system/core/init/readme.txt
-* modify the name of the Browser app from Browser to "{YourName} Browser" for the russian locales
-* extra points: clear the history table at the each start ( onCreate() of the browser app) 
+== Homework Day 1
+1. check the Android Init Language (init.rc) documentation in ~/aosp/system/core/init/readme.txt
+2.  modify the name of the Browser app from Browser to "{YourName} Browser" for the russian locales
+3. extra points: clear the history table at the each start ( onCreate() of the browser app) 
 
-*Homework Day 2*
-* finish the optional chapter at page 219: Adding a Custom Kernel to our Device (do a backup first)
-* create the new image for marakana-alpha and run it on emulator using $ANDROID_HOST_OUT/bin/emulator -kernel out/target/product/alpha/kernel & 
+== Homework Day 2
+1. finish the optional chapter at page 219: Adding a Custom Kernel to our Device (do a backup first)
+2. create the new image for marakana-alpha and run it on emulator using $ANDROID_HOST_OUT/bin/emulator -kernel out/target/product/alpha/kernel & 
 
-*Homework Day 3*
-* finish the lab at page 220, "Adding a Custom Native Library and Executable to our Device"
-* change the colour of the default button to BLUE and the text on the default button to RED
+== Homework Day 3
+1. finish the lab at page 220, "Adding a Custom Native Library and Executable to our Device"
+2. change the colour of the default button to BLUE and the text on the default button to RED
+
+== Homework Day 4
+1. Change the ANR value from 5 second to 10 seconds
+2. Move notification to the bottom, and slide it from bottom-top
+
+
