@@ -20,7 +20,8 @@ http://appsrise.com[Appsrise]
 
 == Homework Day 4
 1. Change the ANR value from 5 second to 10 seconds
-2. Move notification to the bottom, and slide it from bottom-top
+2. Change the YandexCopy app to have an icon+text in the status bar
+3. Optional: Move notification to the bottom, and slide it from bottom-top
 
 == Tips and trick
 
