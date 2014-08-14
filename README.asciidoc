@@ -22,4 +22,9 @@ http://appsrise.com[Appsrise]
 1. Change the ANR value from 5 second to 10 seconds
 2. Move notification to the bottom, and slide it from bottom-top
 
+== Tips and trick
+
+1. In case of a BIOS error at starting the emulator use: emulator -qemu -L ~/android/sdk/tools/lib/pc-bios
+2. Not enough memory use please : swapon -s; swapon /dev/sdb1
+3. OpenGl in emulator: http://stackoverflow.com/questions/15721457/aosp-build-on-custom-device . In the BoardConfig.mk add BUILD_EMULATOR_OPENGL := true ; BUILD_EMULATOR_OPENGL_DRIVER := true; OBS: Interesting to see what USE_OPENGL_RENDERER is doing
 
