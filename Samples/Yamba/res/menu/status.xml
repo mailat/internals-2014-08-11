@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.intel.shanghai.yamba.StatusActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/actionServiceStart"
+        android:title="@string/action_startservice"/>
+    
+    <item
+        android:id="@+id/actionServiceStop"
+        android:title="@string/action_stopservice"/>    
+
+	<item
+        android:id="@+id/actionServicerefresh"
+        android:title="@string/action_refreshservice"/>    
+</menu>
