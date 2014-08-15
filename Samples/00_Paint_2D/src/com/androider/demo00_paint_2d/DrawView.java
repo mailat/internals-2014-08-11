@@ -35,17 +35,18 @@ public class DrawView extends View implements OnTouchListener {
     	{
 	        Point pointSingle = points.get(points.size()-1);
 	   	 	Paint paint = new Paint();
-		    paint.setColor(Color.BLUE);
-		    paint.setTextSize(35);
+		    paint.setColor(Color.RED);
+		    //paint.setTextSize(35);
 		    paint.setAntiAlias(true);
 		    paint.setUnderlineText(true);
-		    canvas.drawText("Sample watermark", pointSingle.x, pointSingle.y, paint);
+		    //canvas.drawText("Sample watermark", pointSingle.x, pointSingle.y, paint);
     	}
 	    //draw the trailing points
 	    paint.setColor(Color.BLACK);
         for (Point point : points) {
             //canvas.drawCircle(point.x, point.y, point.marime, paint);
             canvas.drawCircle(point.x, point.y, point.marime, paint);
+            
         }
         
 //    	if (points!= null && points.size()>0)
