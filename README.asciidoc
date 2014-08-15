@@ -19,9 +19,9 @@ http://appsrise.com[Appsrise]
 2. change the colour of the default button to BLUE and the text on the default button to RED
 
 == Homework Day 4
-1. Change the ANR value from 5 second to 10 seconds
-2. Change the YandexCopy app to have an icon+text in the status bar
-3. Optional: Move notification to the bottom, and slide it from bottom-top
+1. Change the ANR value from 5 second to 10 seconds (Custom ROM).
+2. Change the YandexCopy app to have an icon+text in the status bar.
+3. Optional: Move notification to the bottom, and slide it from bottom-top (Emulator properties).
 
 == Tips and trick
 

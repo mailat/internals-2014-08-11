@@ -62,7 +62,7 @@ on boot
 # something else.
 
 on fs
-        mount_all /fstab.goldfish
+        mount_all /fstab.marakanaalphaboard
 
 service goldfish-setup /system/etc/init.goldfish.sh
     user root
@@ -98,3 +98,10 @@ service goldfish-logcat /system/bin/logcat -Q
 service fuse_sdcard /system/bin/sdcard -u 1023 -g 1023 -d /mnt/media_rw/sdcard /storage/sdcard
     class late_start
     disabled
+    
+# Marakana's custom log-flushing daemon
+service mrknlogd /system/bin/mrknlogd 60
+    class main
+    user system
+    group log
+    oneshot
