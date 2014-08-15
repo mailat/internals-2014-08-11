@@ -1,0 +1,117 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 508
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 533
+  DesignerDeviceName = 'Samsung Galaxy S2'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object VertScrollBox: TVertScrollBox
+    Align = Client
+    Height = 508.000000000000000000
+    TabOrder = 0
+    Width = 320.000000000000000000
+    object Layout: TLayout
+      Height = 530.000000000000000000
+      Width = 320.000000000000000000
+      TabOrder = 0
+      object TelNoButton: TButton
+        Anchors = [akLeft, akTop, akRight]
+        Height = 49.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 304.000000000000000000
+        TabOrder = 0
+        Text = 'Show telephone number'
+        Width = 281.000000000000000000
+        OnClick = TelNoButtonClick
+      end
+      object BatteryUsageButton: TButton
+        Anchors = [akLeft, akTop, akRight]
+        Height = 49.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 24.000000000000000000
+        TabOrder = 1
+        Text = 'Show battery usage'
+        Width = 281.000000000000000000
+        OnClick = BatteryUsageButtonClick
+      end
+      object WebURLButton: TButton
+        Anchors = [akLeft, akTop, akRight]
+        Height = 49.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 80.000000000000000000
+        TabOrder = 2
+        Text = 'Show web URL'
+        Width = 281.000000000000000000
+        OnClick = WebURLButtonClick
+      end
+      object MapURLButton: TButton
+        Anchors = [akLeft, akTop, akRight]
+        Height = 49.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 136.000000000000000000
+        TabOrder = 3
+        Text = 'Show map URL'
+        Width = 281.000000000000000000
+        OnClick = MapURLButtonClick
+      end
+      object StreetViewURLButton: TButton
+        Anchors = [akLeft, akTop, akRight]
+        Height = 49.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 192.000000000000000000
+        TabOrder = 4
+        Text = 'Show StreetView URL'
+        Width = 281.000000000000000000
+        OnClick = StreetViewURLButtonClick
+      end
+      object ContactsButton: TButton
+        Anchors = [akLeft, akTop, akRight]
+        Height = 49.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 248.000000000000000000
+        TabOrder = 5
+        Text = 'Show contacts'
+        Width = 281.000000000000000000
+        OnClick = ContactsButtonClick
+      end
+      object SMSButton: TButton
+        Anchors = [akLeft, akTop, akRight]
+        Height = 49.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 360.000000000000000000
+        TabOrder = 6
+        Text = 'Create SMS'
+        Width = 281.000000000000000000
+        OnClick = SMSButtonClick
+      end
+      object EmailButton: TButton
+        Anchors = [akLeft, akTop, akRight]
+        Height = 49.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 416.000000000000000000
+        TabOrder = 7
+        Text = 'Create email'
+        Width = 281.000000000000000000
+        OnClick = EmailButtonClick
+      end
+      object BarcodeScannerButton: TButton
+        Anchors = [akLeft, akTop, akRight]
+        Height = 49.000000000000000000
+        Position.X = 23.000000000000000000
+        Position.Y = 472.000000000000000000
+        TabOrder = 8
+        Text = 'Launch barcode scanner'
+        Width = 281.000000000000000000
+        OnClick = BarcodeScannerButtonClick
+      end
+    end
+  end
+end
